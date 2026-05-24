@@ -11,8 +11,6 @@ class Settings(BaseSettings):
     
     redis_url: str = "redis://localhost:6379/0"
     cors_origins: str = (
-    "https://hoppscotch.io,"
-    "https://app.hoppscotch.io,"
     "http://localhost:8000","*")
     
     # Limits
